@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<!-----tags to in forms;
+    form
+    input
+    label
+    select
+    option
+    #legend
+    text area
+    attribute
+-----
+class
+id
+placeholder
+name
+required
+type
+file
+<header></header>
+------>
+<main>
+     <section>
+            <form action="" method="post">
+<!----assignment1: diffrentitate between a Post and Get method-->
+                <div>
+                     <label for="name">Name</label>
+                     <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="name" placeholder="Enter your email address" required>
+                </div>
+                <div>
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" placeholder="Password" required>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="Date" name="dob" placeholder="Date of Birth" required>
+                </div>
+                <div>
+                    <p>Gender</p>
+                    <label>male</label>
+                    <input type="radio" name="sex" placeholder="sex" value="male" required>
+                    <label>female</label>
+                    <input type="radio" name="sex" placeat?="sex" value="female" >
+                </div>
+                <div>
+                    <label for="policy">Privacy policy</label>
+                    <input type="checkbox" name="policy" required>
+                </div>
+                <div>
+                    <label>country</label>
+                   <select>
+                    <option value=""> Choose Your Country</option>
+                    <option value=""> Nigeria</option>
+                    <option value=""> Cameron</option>
+                    <option value=""> Ghana</option>
+                    <option value=""> South Africa</option>
+                    <option value=""> Mali</option>
+                    <option value="">Rwanda</option>
+                </div>
+                <br>
+                <div>
+                    <label>more about yourself</label>
+                    <textarea rows="5" cols="10" placeholder="Why are you the best candidate?" name="more_information_about_you" required></textarea>
+                </div>
+                <div>
+                    <label> your passport</label>
+                    <input type="file" name="photo" required>
+                </div>
+                <div>
+                    <input type="submit" value="submit form">
+                    <button type="submit">submit</button> 
+                </div>
+            </form>
+    </section>
+</main>
+</body>
+</html>
